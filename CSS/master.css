@@ -1,9 +1,11 @@
 html {
-  background-image: url(../Photo`s/achtergrond_forum.jpg);
+  background: url(../Photo`s/achtergrond_forum.jpg);
 }
 
-head ul {
+#menu ul {
   position: absolute;
   display: block;
   margin: auto;
+  border: transparent solid 10px;
+  background-color: #dddddd;
 }
