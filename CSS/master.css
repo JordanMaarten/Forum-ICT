@@ -1,3 +1,9 @@
 html {
   background-image: url(../Photo`s/achtergrond_forum.jpg);
 }
+
+head ul {
+  position: absolute;
+  display: block;
+  margin: auto;
+}
