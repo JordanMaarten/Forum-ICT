@@ -12,10 +12,14 @@
 
     <div id="menu">
       <ul>
-        <li><a href="">thema's</a></li>
-        <li><a href="">board</a></li>
-        <li><a href="">undefined</a></li>
-        <li><a href="">undefined</a></li>
+        <img src="../Photo`s/logo_forum.png">
+        <a>forum ict</a>
+        <div id="menu_items">
+          <a href="">titel</a>
+          <a href="">titel</a>
+          <a href="">titel</a>
+          <a href="">titel</a>
+        </div>
       </ul>
     </div>
 
@@ -23,7 +27,7 @@
 
   <body>
 
-
+    <h3 id="titel_onder_menu"></h3>
 
   </body>
 
