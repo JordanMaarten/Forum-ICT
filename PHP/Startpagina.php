@@ -13,7 +13,7 @@
     <div id="menu">
       <ul>
         <img src="../Photo`s/logo_forum.png">
-        <a>forum ict</a>
+        <a class="menu_title">forum ict</a>
         <div id="menu_items">
           <a href="">titel</a>
           <a href="">titel</a>

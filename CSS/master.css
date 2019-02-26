@@ -7,15 +7,14 @@ html {
   margin-left: -10px;
   margin-right: -10px;
   margin-top: 75px;
-  background-color: white;
-  opacity: 0.8;
+  background-color: #FFFFFF90;
   padding: 15px -40px 15px -40px;
 }
 
 #menu ul img {
   position: inherit;
-  width: 17.5%;
-  height: 17.5%;
+  width: 10%;
+  height: 10%;
   margin-bottom: -25px;
   margin-left: -20px
 }
@@ -29,6 +28,7 @@ html {
   position: relative;
   bottom: 100px;
   color: white;
+  bottom: 175px;
   padding: 0px 40px 10px 40px;
 }
 
