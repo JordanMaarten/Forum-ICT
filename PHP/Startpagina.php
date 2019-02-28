@@ -12,10 +12,8 @@
 
     <div id="menu">
       <ul>
-        <img src="../Photo`s/logo_forum.png">
-        <a class="menu_title">forum ict</a>
         <div id="menu_items">
-          <a href="">titel</a>
+          <a class="first_item" href="">titel</a>
           <a href="">titel</a>
           <a href="">titel</a>
           <a href="">titel</a>
@@ -26,8 +24,6 @@
   </head>
 
   <body>
-
-    <h3 id="titel_onder_menu"></h3>
 
   </body>
 

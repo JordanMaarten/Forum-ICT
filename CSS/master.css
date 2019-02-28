@@ -1,51 +1,6 @@
 html {
   background: url(../Photo`s/achtergrond_forum.jpg);
-}
-
-#menu ul {
-  position: relative;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: 75px;
-  background-color: #FFFFFF90;
-  padding: 15px -40px 15px -40px;
-}
-
-#menu ul img {
-  position: inherit;
-  width: 10%;
-  height: 10%;
-  margin-bottom: -25px;
-  margin-left: -20px
-}
-
-#menu ul #menu_items a {
-  background-color: #7ad2ff;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: arial;
-  margin-left: 20px;
-  position: relative;
-  bottom: 100px;
-  color: white;
-  bottom: 175px;
-  padding: 0px 40px 10px 40px;
-}
-
-#menu ul #menu_items {
-  margin-left: 200px;
-}
-
-#menu ul a {
-  position: relative;
-  font-family: arial;
-}
-
-#titel_onder_menu {
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 20px 0px 20px 0px;
-  background-color: #198fff;
-  position: relative;
+  background-size: 100%;
+  overflow-x: hidden;
+  position: absolute;
 }
