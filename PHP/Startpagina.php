@@ -12,6 +12,8 @@
 
     <div id="menu">
       <ul>
+        <img src="../Photo`s/logo_forum.png" style=" height: 180px; width: 200px" >
+        <p>forum ict</p>
         <div id="menu_items">
           <a class="first_item" href="">titel</a>
           <a href="">titel</a>
