@@ -1,6 +1,33 @@
 html {
-  background: url(../Photo`s/achtergrond_forum.jpg);
-  background-size: 100%;
+  background: url(../Photo`s/achtergrond_forum.jpg) no-repeat center center fixed;
+  background-size: cover;
   overflow-x: hidden;
-  position: absolute;
+  position: inherit;
+}
+
+#menu {
+  background-color: #ffffff90;
+  margin: 100px 0px 0px -10px;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+}
+
+#menu_items a:not(.first_item) {
+  margin-left: 30px;
+}
+
+#menu_items a {
+  color: white;
+  position: relative;
+  font: arial;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #4cd8ff;
+  padding: 0px 40px 10px 40px;
+  bottom: 80px;
+}
+
+#menu_items a.first_item {
+  margin-left: 200px;
 }
