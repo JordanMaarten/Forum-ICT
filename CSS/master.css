@@ -2,7 +2,7 @@ html {
   background: url(../Photo`s/achtergrond_forum.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow-x: hidden;
-  position: inherit;
+  margin-right: -30px;
 }
 
 #menu {
@@ -15,23 +15,28 @@ html {
 #menu img {
   	position: relative;
     margin-top: -120px;
-    margin-bottom: -90px;
+    margin-bottom: -100px;
     margin-left: -20px;
 }
 
-#menu p {
+#menu p.menu_title {
   position: relative;
-  color: ;
+  color: black;
   font: arial;
   font-size: 60px;
   font-family: monospace;
   margin-top: -30px;
   margin-bottom: -20px;
   margin-left: 180px;
+  cursor: default;
+}
+
+#menu_items a.first_item {
+  margin-left: 400px;
 }
 
 #menu_items a:not(.first_item) {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 #menu_items a {
@@ -40,12 +45,26 @@ html {
   font: arial;
   font-family: monospace;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   background-color: #4cd8ff;
-  padding: 0px 40px 10px 40px;
-  bottom: 100px;
+  padding: 0px 55px 10px 55px;
+  bottom: 125px;
 }
 
-#menu_items a.first_item {
-  margin-left: 250px;
+#menu p.search {
+  position: relative;
+  color: black;
+  font: arial;
+  font-size: 40px;
+  font-family: monospace;
+  left: 1500px;
+  bottom: 100px;
+  background-color: blue;
+  border: transparent;
+  padding: 10px;
+  margin-bottom: -125px;
+}
+#menu input {
+  position: relative;
+  left: 1300px;
 }
