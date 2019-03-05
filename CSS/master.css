@@ -52,8 +52,12 @@ html {
   bottom: 125px;
 }
 
-#menu_items a:hover {
-  background-color: #111111
+#menu_items a.active {
+  background-color: #0066ff;
+}
+
+#menu_items a:hover:not(.active) {
+  background-color: black;
 }
 
 #menu p.search {
@@ -74,7 +78,7 @@ html {
 }
 
 #menu p.search:hover {
-  background-color: #111111;
+  background-color: black;
   cursor: pointer;
 }
 
