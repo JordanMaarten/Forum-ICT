@@ -5,6 +5,7 @@ html {
   margin-right: -30px;
 }
 
+/* Menu */
 #menu {
   background-color: #ffffff90;
   margin: 100px 0px 0px -10px;
@@ -21,12 +22,12 @@ html {
 
 #menu p.menu_title {
   position: relative;
-  color: black;
+  color: #3052a8;
   font: arial;
-  font-size: 60px;
+  font-size: 55px;
   font-family: monospace;
-  margin-top: -30px;
-  margin-bottom: -20px;
+  margin-top: -25px;
+  margin-bottom: -25px;
   margin-left: 180px;
   cursor: default;
 }
@@ -51,20 +52,38 @@ html {
   bottom: 125px;
 }
 
+#menu_items a:hover {
+  background-color: #111111
+}
+
 #menu p.search {
   position: relative;
   color: black;
   font: arial;
-  font-size: 40px;
+  font-size: 25px;
   font-family: monospace;
   left: 1500px;
-  bottom: 100px;
-  background-color: blue;
+  bottom: 125px;
+  color: #ffffff;
+  background-color: #1b4dff;
   border: transparent;
-  padding: 10px;
+  padding: 15px 30px 15px 10px;
   margin-bottom: -125px;
+  width: 140px;
+  text-align: center;
 }
+
+#menu p.search:hover {
+  background-color: #111111;
+  cursor: pointer;
+}
+
 #menu input {
   position: relative;
-  left: 1300px;
+  left: 1410px;
+  background-color: #269dff;
+  border-style: none;
+  bottom: 41px;
+  height: 57px;
+  width: 90px;
 }
