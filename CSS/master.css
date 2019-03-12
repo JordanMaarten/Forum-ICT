@@ -91,3 +91,34 @@ html {
   height: 57px;
   width: 90px;
 }
+
+/* onder menu */
+#tekst_onder_menu p, h6 {
+  font: arial;
+  font-family: monospace;
+}
+
+#tekst_onder_menu p.title_under_menu {
+  background-color: #3864ff;
+  font-size: 20px;
+  color: white;
+  margin-left: 50px;
+  margin-right: 70px;
+  padding: 20px 20px 20px 20px;
+}
+
+#tekst_onder_menu p:not(.title_under_menu) {
+  background-color: white;
+  font-size: 16px;
+  margin-left: 50px;
+  height: 250px;
+  margin-right: 75px;
+}
+
+#tekst_onder_menu .likes_dislikes {
+  margin-top: -25px;
+}
+
+#tekst_onder_menu img:hover {
+  cursor: pointer;
+}
