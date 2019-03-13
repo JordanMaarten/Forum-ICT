@@ -122,6 +122,18 @@ html {
 #tekst_onder_menu img:hover {
   cursor: pointer;
 }
+
+#tekst_onder_menu button {
+  position: relative;
+  background-color: red;
+  width: 75px;
+  left: 20px;
+}
+
+#tekst_onder_menu button:hover {
+  cursor: pointer;
+}
+
 /* post functie */
 
 #post textarea {
