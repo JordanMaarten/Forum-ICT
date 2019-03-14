@@ -139,7 +139,10 @@ html {
 #post textarea {
   position: relative;
   left: 300px;
+<<<<<<< HEAD
   font-size: 16px;
+=======
+>>>>>>> 692dedb06488cd4a18c22e9a6470d46eede73168
 }
 
 
